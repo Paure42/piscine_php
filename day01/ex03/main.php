@@ -1,5 +1,4 @@
 #!/usr/bin/php
-
 <?php
 
 include("ft_split.php");
