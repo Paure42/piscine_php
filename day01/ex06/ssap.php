@@ -6,7 +6,7 @@ $i = 1;
 
 while ($i < $argc)
 {
-    $tab = array_merge($tab, preg_split("/[\s,]+/",$argv[$i]));
+    $tab = array_merge($tab, preg_split("/[\s]+/",$argv[$i]));
     $i++;
 }
 sort($tab);
